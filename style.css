@@ -1,0 +1,81 @@
+body{
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container1{
+  width: 800px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+.container{
+  width: 800px;
+  margin: auto;
+}
+
+img.logo{
+  width: 250px;
+  display: block;
+  margin:0 auto;
+}
+
+header > h1{
+  text-align: center;
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+  color: rgb(0, 215, 0);
+}
+
+nav > div{
+  text-align: center;
+  background-color: rgb(0, 215, 0);
+  background-size: cover;
+  padding: 15px;
+  height: 20px;
+}
+
+.paragrafo1{
+    padding: 30px;
+}
+
+div > span{
+  color: white;
+  font-size: 25px;
+  font-family: Arial, sans-serif;
+}
+
+.posizione1{
+  color: white;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+}
+
+.posizione1::before{
+  content: "\2192";
+}
+
+.stato{
+  color: white;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+}
+
+.carica1{
+  border: 15px solid orange;
+  border-radius: 5px;
+  width: 35%;
+}
+
+.carica2{
+  border: 15px solid green;
+  border-radius: 5px;
+  width: 65%;
+}
+
+.carica3{
+  border: 15px solid red;
+  border-radius: 5px;
+  width: 20%;
+}
